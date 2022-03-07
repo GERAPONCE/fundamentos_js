@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <script>
+    
+         //var saludo = "Hola mundo";
+        //alert(saludo);
+        
+        //var nombre = "Gerardo";
+        var edad = 23;
+        //alert("la edad de" + " " + nombre + " " + " es de " + edad + " años");
+        
+        //console.log(typeof edad);
+        
+        //var x = 7;
+        //var y = 25;
+        //var suma = x + y;
+        //console.log("el resultado de la suma es " + suma)
+        
+        // var resta = x - y;
+        //console.log( "el resultado de la resta es " + resta)
+        
+        //var resultadoMultiplicacion = x * y;
+        //console.log( "el resultado de la multiplicación es " + resultadoMultiplicacion)
+        
+        //var division = x / y;
+        //console.log("el resultado de la división es " + division)
+        
+        //var resultadoModulo = y % x ;
+        //console.log("el resultado del modulo es " + resultadoModulo)
+        
+        //x++;
+        //console.log("incremeneto " + x);
+        
+        //x--; 
+        //console.log("decremento " + x);
+        
+        //var comparar = x < y;
+        //console.log("el resultado es " + comparar)
+        
+        
+        
+        
+        // primer ejercicio
+        
+        //if(edad < 18 ){
+            //alert("tu eres menor de edad");
+            
+        //}else{
+            //alert("Eres mayor de edad")
+        //}
+        
+        
+        
+        // segundo ejercicio
+        
+        //if(edad < 18){
+            //alert("Eres menor de 18 años")
+        //}else if (edad >= 18 && edad <= 28){
+            //alert("Estas entre los 18 y 28 años")
+        //}else{
+            //alert("Eres Mayor de 28 años")
+        //}
+        
+        
+        
+        // tercer ejercicio
+        
+        //var nota = 3;
+        //switch(nota){
+            //case 1:
+                //alert("Reprobado")
+                //break;
+            //case 5: 
+                //alert("Reprobado")
+                //break;
+                
+            //case 7:
+                //alert("Panzaste")
+                //break;
+                
+            //case 10:
+               // alert("aprobado")
+                //break;
+                
+            //default: 
+               //alert("no aplica")
+                //break;
+        //}
+        
+        //var tablaMulti = prompt("introduce el número de la tabla  que quieres multiplicar");
+        //var tabla = Number (tablaMulti) //transforma a número el dato ingresado
+        
+        //for (var i=1; i<=10; i++){
+           // alert(tabla + "x" + i + "=" + (tabla * i));
+        //}
+        
+        // cuatro ejercicio funciones
+        
+        function sumar(a, b){
+            var resultado = a + b;
+            alert(resultado)
+        }
+        
+        sumar(4, 5);
+        
+        // funcion 2
+        
+        function esMayordeEdad(edadParametro){
+            if(edadParametro  < 18 ){
+                alert("Eres menor de 18");
+            }else if (edadParametro >=18 && edadParametro <=28){
+                alert("estas entre los 18 y 28 años")
+            }else{
+                alert("eres mayor de 18 años")
+            }
+        }
+        
+        var edad = prompt("Introduce tu edad, por favor");
+        esMayordeEdad(Number(edad));
+    
+    </script>
+    <script src="objeto.js"></script>
+</body>
+</html>
